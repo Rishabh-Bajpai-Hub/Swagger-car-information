@@ -1,4 +1,4 @@
-package com.mobile.owl.solutions.cars.info.swagger.api.design.test.Models;
+package swagger.api.design.Models;
 
 import io.swagger.annotations.ApiModelProperty;
 

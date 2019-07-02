@@ -1,8 +1,7 @@
-package com.mobile.owl.solutions.cars.info.swagger.api.design.test.Models;
+package swagger.api.design.Models;
 
 import io.swagger.annotations.ApiModelProperty;
 import java.util.List;
-import java.util.Set;
 
 public class Response {
   @ApiModelProperty(notes = "list of cars")

@@ -1,4 +1,4 @@
-package com.mobile.owl.solutions.cars.info.swagger.api.design.test.config;
+package swagger.api.design.config;
 
 import java.util.Arrays;
 import org.springframework.context.annotation.Bean;
@@ -32,7 +32,7 @@ public class SwaggerConfig {
     return new Docket(DocumentationType.SWAGGER_2)
         .select()
         .apis(RequestHandlerSelectors.basePackage(
-            "com.mobile.owl.solutions.cars.info.swagger.api.design.test"))
+            "swagger.api.design"))
         .paths(regex("/.*"))
         .build()
         .apiInfo(apiEndPointsInfo());

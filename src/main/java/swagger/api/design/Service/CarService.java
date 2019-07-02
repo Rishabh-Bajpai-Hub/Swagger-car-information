@@ -1,11 +1,9 @@
-package com.mobile.owl.solutions.cars.info.swagger.api.design.test.Service;
+package swagger.api.design.Service;
 
-import com.mobile.owl.solutions.cars.info.swagger.api.design.test.Models.Car;
-import com.mobile.owl.solutions.cars.info.swagger.api.design.test.Models.CarBuilder;
+import swagger.api.design.Models.Car;
+import swagger.api.design.Models.CarBuilder;
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 import org.springframework.stereotype.Service;
 
 @Service

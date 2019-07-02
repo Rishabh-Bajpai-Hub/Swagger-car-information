@@ -1,11 +1,11 @@
-package com.mobile.owl.solutions.cars.info.swagger.api.design.test.resource;
+package swagger.api.design.resource;
 
 
-import com.mobile.owl.solutions.cars.info.swagger.api.design.test.Models.Car;
-import com.mobile.owl.solutions.cars.info.swagger.api.design.test.Models.CarBuilder;
-import com.mobile.owl.solutions.cars.info.swagger.api.design.test.Models.Response;
-import com.mobile.owl.solutions.cars.info.swagger.api.design.test.Service.CarService;
-import com.mobile.owl.solutions.cars.info.swagger.api.design.test.Utils.Message;
+import swagger.api.design.Models.Car;
+import swagger.api.design.Models.CarBuilder;
+import swagger.api.design.Models.Response;
+import swagger.api.design.Service.CarService;
+import swagger.api.design.Utils.Message;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import java.util.Arrays;
@@ -35,7 +35,7 @@ public class CarResource {
         .setImageUrl(null)
         .setThumbnailUrl(null);
     CarBuilder carBuilder2 = new CarBuilder()
-        .setId(1L)
+        .setId(2L)
         .setName("Mercedes-Benz E2")
         .setScore(6.5D)
         .setDescription("Redesigned in 2019")

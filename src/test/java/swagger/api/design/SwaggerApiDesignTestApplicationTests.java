@@ -1,4 +1,4 @@
-package com.mobile.owl.solutions.cars.info.swagger.api.design.test;
+package swagger.api.design;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

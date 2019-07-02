@@ -1,4 +1,4 @@
-package com.mobile.owl.solutions.cars.info.swagger.api.design.test;
+package swagger.api.design;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
