@@ -31,16 +31,20 @@ public class CarResource {
         .setId(1L)
         .setName("Mercedes-Benz E1")
         .setDescription("Redesigned in 2018")
-        .setScore(7.5D)
+        .setScore("7.5")
         .setImageUrl(null)
-        .setThumbnailUrl(null);
+        .setThumbnailUrl(null).
+    setOnRoadPrice("30 Lakhs")
+        .setFuelType("PETROL");
     CarBuilder carBuilder2 = new CarBuilder()
         .setId(2L)
         .setName("Mercedes-Benz E2")
-        .setScore(6.5D)
+        .setScore("6.5")
         .setDescription("Redesigned in 2019")
         .setImageUrl(null)
-        .setThumbnailUrl(null);
+        .setThumbnailUrl(null)
+        .setOnRoadPrice("20 Lakhs")
+        .setFuelType("DIESEL");
 
      return Arrays.asList(
         carBuilder1.build(), carBuilder2.build()

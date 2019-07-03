@@ -5,17 +5,17 @@ import java.util.List;
 
 public class Response {
   @ApiModelProperty(notes = "list of cars")
-    private List<Car> result;
+    private CompareCarResponse result;
     @ApiModelProperty(notes = "Status code")
     private int code;
    @ApiModelProperty(notes = "Explicit Message ")
     private String message;
 
-    public Object getResult() {
+    public CompareCarResponse getResult() {
       return result;
     }
 
-    public void setResult(List<Car> result) {
+    public void setResult(CompareCarResponse result) {
       this.result = result;
     }
 

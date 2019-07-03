@@ -1,13 +1,16 @@
 package swagger.api.design.Models;
 
+import io.swagger.annotations.ApiModelProperty;
+
 public class CarBuilder {
   private Long id;
   private String name;
   private String description;
-  private Double score;
+  private String score;
   private String thumbnailUrl;
   private String imageUrl;
-
+  private String onRoadPrice;
+  private String fuelType;
 
   public Long getId() {
     return id;
@@ -36,12 +39,30 @@ public class CarBuilder {
     return this;
   }
 
-  public Double getScore() {
+  public String getScore() {
     return score;
   }
 
-  public CarBuilder setScore(Double score) {
+  public CarBuilder setScore(String score) {
     this.score = score;
+    return this;
+  }
+
+  public String getOnRoadPrice() {
+    return onRoadPrice;
+  }
+
+  public CarBuilder setOnRoadPrice(String onRoadPrice) {
+    this.onRoadPrice = onRoadPrice;
+    return this;
+  }
+
+  public String getFuelType() {
+    return fuelType;
+  }
+
+  public CarBuilder setFuelType(String fuelType) {
+    this.fuelType = fuelType;
     return this;
   }
 
@@ -62,7 +83,9 @@ public class CarBuilder {
     this.imageUrl = imageUrl;
     return this;
   }
+
   public Car build() {
-    return new Car(id,name,description,score,thumbnailUrl,imageUrl);
+    return new Car(id, name, description, score, thumbnailUrl, imageUrl,onRoadPrice,fuelType);
   }
 }
+
